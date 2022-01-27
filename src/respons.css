@@ -1,0 +1,424 @@
+@media(max-width:1440px){
+    .imagem-fundo{
+        height: 70vh;
+    }
+}
+    /* ---------------------------------------------------------------- */
+    @media(max-width:768px){
+        .imagem-fundo{
+            background: url(../src/images/foto-inicio-mb.png) no-repeat right;
+            height: 500px;
+        }
+        
+        .navbar h1{
+            font-size: 25px;
+        }
+        
+        .navbar ul li a{
+            font-size: 15px;
+            padding: 0 15px;
+        }
+        
+        .ready{
+            margin-top: 130px ;
+            max-width: 600px;   
+        }
+        
+        .ready h2{
+            max-width: 150px;
+            font-size: 25px;
+            margin: 5px 0;
+            
+        }
+        .ready .pesquisa input{
+            width: 150px;
+            height: 30px;
+            border-radius: 2px;
+            margin-right: 4px;
+            font-size: 10px;
+        }
+        .ready .pesquisa .fas{
+            background-color: #badc58;
+            width: 30px;
+            height: 32px;
+            padding: 6px;
+            color: #fff;
+        }
+        /* Receita */
+        .recs{
+            height: 500px;
+        }
+        .receita-inicio h1{
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .receita-inicio p{
+            margin: 15px;
+            font-size: 15px;
+        }
+        /* Comidas  */
+        .comida{
+            grid-gap: 30px;
+        }
+        .comida .item img{
+            width: 135px;
+            object-fit: cover;
+        }
+    
+        .comida .item .bx{
+            margin: 5px;
+        }
+        .comida .item h3{
+            max-width: 130px;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .comida .item a{
+            padding: 5px;
+            margin-left: 10px;
+            border-radius: 4px;
+            font-size: 10px;
+            
+        }
+                /* Servi */
+        .servi{
+            background: url(../src/images/foto-service-1.png) no-repeat left;
+            height:500px;
+        }
+        .servi-1{
+            margin-left: 380px;
+        }
+        .servi-1 h1{
+            padding-top: 100px ;
+            font-size: 20px;
+            max-width: 230px;
+        }
+        .servi-1 p{
+            padding-top: 10px 0;
+            margin-top: 8px;
+            line-height: 20px;
+            max-width: 380px;
+            font-size: 15px;
+        }
+         .servi-1 a{
+            padding: 8px;
+            border-radius: 4px;
+            margin: 5px;
+            font-size: 15px;
+        }
+        /* Blog */
+        .blogueiros{
+            height: 900px;
+        }
+        .read h1{
+            font-size: 25px;
+            padding-top: 20px;
+        }
+        
+        .read p{
+            font-size: 15px;
+            margin: 10px;
+        }
+            /*  2 Parte  */
+        .blog{
+            display: grid;
+            grid-template-areas:300px / 400px / 300px / 400px;
+            grid-gap: 15px;
+            padding: 2em;
+        }
+        .blog .content{
+            width: 250px;
+            height: 350px;
+        }
+        .blog .content .bx a img{
+            height: 35px;
+            width: 35px;
+        }
+        .blog  .content .bx-1 h3{
+            padding-bottom: 0px;
+            font-size: 20px;
+            max-width: 170px;
+            margin-left: 20px;
+        }
+        .blog  .content .bx-2 h3{
+            font-size: 18px;
+            margin-left: 20px;
+            padding-bottom: 5px;
+            max-width: 200px;
+        }
+        .blog  .content .bx-3 h3{
+            padding-bottom: 0px;
+            margin-left: 20px;
+            font-size: 20px;
+            max-width: 280px;
+        }
+        .blog  .content .bx-4 h3{
+            font-size: 20px;
+            margin-left: 20px;
+            padding-bottom: 20px;
+        }
+            /*  Associação  */
+        .associacao{
+            background: url(../src/images/foto-final-1.png)no-repeat right ;
+            height: 512px;
+            margin-left: 30px;
+        }
+        
+        .associacao .box-1 h1{
+            font-size: 20px;
+            max-width: 200px;
+        }
+        
+        .associacao .oferta input{
+            border: 1px solid #1d164d;
+            width: 180px;
+            height: 30px;
+            padding-left: 15px;
+            font-size: 10px;
+        }
+        .associacao .oferta a{
+            width: 40px;
+            height: 32px;
+            font-size: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }  
+        /* Rodape */
+        .rodape{
+            display: flex;
+            font-size: 12px;
+            align-items: center;
+        }
+        
+        .rodape ul li{
+            padding: 10px;
+            
+        }
+        .rodape p{
+            padding: 0%;
+        } 
+    }
+    /* ---------------------------------------------------------------------------------- */
+    @media(max-width: 526px){
+        #btn-mobil{
+            display: flex;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            background:none;
+            color: #fff;
+            font-size: 14px;
+            gap: .5rem; 
+    
+        }
+    
+        .navbar nav ul{
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 70px;
+            right: 0;
+            background: #87CC62;
+            height: 0;
+            transition: 0.6s;
+            z-index: 1000;
+            visibility: hidden;
+            overflow-y: hidden;
+    
+        }
+     
+        #nav.active #menu {
+            display:block;
+            height:60vh;
+            visibility: visible;
+            overflow-y: auto;
+        }
+        ul li{
+            padding: 1.5rem;
+            margin: 0 1rem;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+        }
+        
+        #hamburguer{
+            color: #fff; 
+            display: block;
+            width: 20px;
+            border-top: 2px solid;
+        }
+        #hamburguer::after,
+        #hamburguer::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: currentColor;
+            margin-top: 5px;
+            transition: .3s;
+            position: relative;
+        }
+    
+         #nav.active #hamburguer {
+            border-top-color: transparent;
+        }
+    
+    
+        #nav.active #hamburguer::before{
+            transform: rotate(135deg);
+           
+        }
+    
+        #nav.active #hamburguer::after{
+            transform: rotate(-135deg);
+            top: -7px;
+        }
+
+        
+        /* ------------------------------------------ */
+        .recs .receita-inicio{
+            padding-top: 50px;
+        }
+        /* Ready */
+        .imagem-fundo{
+            background: url(./images/android-chrome-512x512.png) center no-repeat right;
+            max-width: 100%;
+        }
+        .navbar h1{
+            color: #fff;
+        }
+        
+        .ready{
+            margin-top:  450px ;
+            padding: 1px 10%;
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            max-width: 100%;
+        }
+        .ready h2{
+            max-width: 260px;
+            font-size: 15px;
+            padding: 5px;
+        }
+        .ready .pesquisa .fas{
+            padding: 7px;
+        }
+        /* Receitas prontas  */
+        .receita-inicio p{
+            font-size: 13px;
+        }
+        .comida{
+            margin: 10px;
+        }
+        .comida .item .bx h3{
+            font-size: 12px;
+        }
+    
+        /* --------------------------------------------------------------------------- */
+        .servi-1{
+            margin-left: 10px;
+        }
+        .servi-1 h1{
+            padding-top:0px ;
+            font-size: 20px;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        .servi-1 p{
+            padding-top: 0px 0;
+            margin: 0px;
+            line-height: 15px;
+            max-width: 300px;
+            color:#fff ;
+            font-size: 10px;
+        }
+         .servi-1 a{
+             display: inline-block;
+             color: rgba(0,0,0,0.2);
+            background-color: #fff;
+            padding: 8px;
+            font-size: 11px;
+            border-radius: 4px;
+            margin: 30px 0 0 50px;
+        }
+        /* Blog -------------------------------------------------------------------------- */
+    
+        .blogueiros{
+            height: 200vh;
+        }
+        .read h1{
+            font-size: 25px;
+        }
+        
+        .read p{
+            font-size: 13px;
+        }
+        /*  2 Parte  */
+        .blog{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 1.5em;
+            right: 500px;
+            margin-left: 90px;
+        }
+        .blog .content{
+            height: 300px;
+        }
+    
+        .blog .bx img{
+            margin-left: 35px;
+        }
+    
+        .blog  .content .bx-1 h3{
+            padding-bottom: 10px;
+            font-size: 13px;
+            max-width: 350px;
+            margin-left: 10px;
+        }
+        .blog  .content .bx-2 h3{
+            font-size: 12px;
+            margin-left: 10px;
+            max-width: 350PX;
+            padding-bottom: -10px;
+        }
+        .blog  .content .bx-3 h3{
+            margin-left: 10px;
+            font-size: 13px;
+        }
+        .blog  .content .bx-4 h3{
+            margin-left: 10px;
+            padding-bottom: 5px;
+            font-size: 13px;
+        }
+        .blog .content h3{
+            padding-top: 10px;
+            padding-bottom: 35px;
+        }
+        /* ----------------------------------------------------------------------------------- */
+        .associacao .box-1 h1{
+            font-size: 13px;
+        }
+        .associacao .box-1{
+            position: relative;
+            top: 210px;
+        }
+        .associacao .oferta input{
+            width: 180px;
+            height: 30px;
+            border-radius: 4px;
+            padding-left: 15px;
+            margin: 11px 4px 0 0;
+        
+        }
+        
+        /* Rodapé------------------------------------------------------------------------ */
+        .rodape p{
+            font-size: 12px;
+            padding-top: 70px;
+            margin-left: 13%;
+        }
+        .rodape ul{
+            font-size: 18px;
+            left: 13%;
+            padding:10px ;
+        }
+    }
