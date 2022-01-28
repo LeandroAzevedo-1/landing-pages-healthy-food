@@ -151,8 +151,6 @@
     max-width: 400px;
 }
 .servi-1 p{
-    padding-top: 20px 0;
-    margin: 10px;
     line-height: 40px;
     max-width: 380px;
     color:#9e9baf ;
@@ -163,7 +161,6 @@
     background-color: #badc58;
     padding: 15px;
     border-radius: 8px;
-    margin: 10px;   
 }
 /* Blog */
 .blogueiros{
