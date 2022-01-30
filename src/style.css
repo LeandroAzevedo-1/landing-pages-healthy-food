@@ -8,8 +8,8 @@
  }
 
 .imagem-fundo{
-    background: url(images/Illustration.svg)no-repeat right;
-    max-width: 100%;
+    background: url('./images/Illustration.svg') no-repeat  right top;
+    background-size:contain;
     height: 100vh;
 }
 
