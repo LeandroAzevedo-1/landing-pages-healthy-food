@@ -36,16 +36,8 @@ html {
 .navbar ul li a {
   color: #fff;
   font-size: 20px;
-  transition: 0.2s;
+  transition: 0.2s ease-in-out;
   padding: 0 23px;
-}
-
-.ready {
-  margin-top: 150px;
-  padding: 30px 10%;
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
 }
 .navbar ul li a:hover {
   color: #badc58;
@@ -54,28 +46,41 @@ html {
   border-radius: 5px;
 }
 
+.ready {
+  margin-top: 150px;
+  padding: 30px 10%;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
 .ready h2 {
   max-width: 250px;
   font-size: 50px;
   color: var(--cor-textoPrincipal);
   margin: 20px 0;
 }
+.ready .pesquisa {
+  display: flex;
+  align-items: center;
+}
 .ready .pesquisa input {
-  border: 1px solid #1d164d;
+  border: 1px solid var(--cor-textoPrincipal);
   width: 240px;
-  height: 40px;
+  height: 50px;
   border-radius: 4px;
   padding-left: 15px;
-  margin-right: 8px;
 }
 .ready .pesquisa .fas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #badc58;
-  width: 40px;
-  height: 42px;
-  text-align: center;
+  width: 60px;
+  height: 50px;
   border-radius: 4px;
-  padding: 12px;
   color: #fff;
+  margin-left: 5px;
 }
 /* Receita */
 .recs {
@@ -135,31 +140,36 @@ html {
 }
 /* Servi */
 .servi {
-  background: url(./images/bloco_services.svg) no-repeat left;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
-.servi-1 {
-  justify-content: center;
-  margin-left: 800px;
+
+.servi .servi-texto {
+  width: 500px;
+  margin-left: 10%;
 }
-.servi-1 h1 {
-  padding-top: 150px;
-  font-size: 35px;
-  color: var(--cor-textoPrincipal);
-  max-width: 400px;
+.servi .servi-texto h1{
+    color: var(--cor-textoPrincipal);
+    font-size: 45px;
+    margin-bottom: 10px;
 }
-.servi-1 p {
-  line-height: 40px;
-  max-width: 380px;
-  color: #9e9baf;
+.servi-texto p {
+    line-height: 40px;
+    max-width: 450px;
+    color: #9e9baf;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
 }
-.servi-1 a {
+.servi-texto a {
   display: inline-block;
   color: #fff;
   background-color: #badc58;
-  padding: 15px;
+  padding: 25px;
   border-radius: 8px;
-}
+} 
 /* Blog */
 .blogueiros {
   background-color: #fafafc;
@@ -191,6 +201,9 @@ html {
   border-radius: 0.4em;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 }
+.blog-card .item img {
+  width: 100%;
+}
 .blog-card .item .card {
   height: 200px;
   display: grid;
@@ -217,66 +230,64 @@ html {
 
 /*  Associação  */
 .associacao {
-  background: url(./images/bloco_final_image.svg);
-  background-repeat: no-repeat;
-  background-position: right top;
-  height: 660px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.associacao .associacao-conteudo {
+  margin-left: 5%;
+}
+.associacao .associacao-conteudo h1 {
+  font-size: 50px;
+  color: var(--cor-textoPrincipal);
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.associacao .oferta {
   display: flex;
   align-items: center;
-  margin-left: 200px;
 }
-
-.associacao .box-1 h1 {
-  font-size: 40px;
-  color: var(--cor-textoPrincipal);
-  max-width: 400px;
-}
-
 .associacao .oferta input {
   border: 1px solid #1d164d;
-  width: 340px;
+  width: 400px;
   height: 50px;
   border-radius: 4px;
   padding-left: 25px;
-  margin: 25px 8px 0 0;
 }
 .associacao .oferta a {
   display: inline-block;
-  width: 70px;
+  width: 80px;
   height: 50px;
   text-align: center;
   color: #fff;
   background-color: #badc58;
   padding: 15px;
   border-radius: 5px;
+  margin-left: 10px;
 }
 
 /* Rodape */
 .rodape {
-  height: 100px;
-  font-size: 20px;
+  height: 150px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
 }
-
-.rodape ul li {
-  display: inline-block;
-  padding: 15px;
+.rodape .copyrights {
+  color: var(--cor-textoPrincipal);
 }
-.rodape ul li a:hover {
-  color: green;
+.rodape nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
 }
-.rodape ul li a {
+.rodape nav a {
   color: #9e9baf;
 }
-.rodape ul {
-  padding: 40px;
-  position: absolute;
-  right: 0;
-  padding-right: 70px;
-}
-
-.rodape p {
-  padding: 50px;
-  position: absolute;
-  left: 70px;
-  color: var(--cor-textoPrincipal);
+.rodape nav a:hover {
+  color: green;
 }

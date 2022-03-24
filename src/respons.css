@@ -1,3 +1,17 @@
+@media (max-width: 1216px){
+  .blog-card .item .card h4 {
+    font-size: 22px;
+  }
+  .rodape{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .associacao{
+    
+  }
+
+}
 @media (max-width: 768px) {
   .navbar h1 {
     font-size: 25px;
@@ -67,85 +81,8 @@
     border-radius: 4px;
     font-size: 10px;
   }
-  /* Servi */
-  .servi {
-    background: url(../src/images/foto-service-1.png) no-repeat left;
-    height: 500px;
-  }
-  .servi-1 {
-    margin-left: 380px;
-  }
-  .servi-1 h1 {
-    padding-top: 100px;
-    font-size: 20px;
-    max-width: 230px;
-  }
-  .servi-1 p {
-    padding-top: 10px 0;
-    margin-top: 8px;
-    line-height: 20px;
-    max-width: 380px;
-    font-size: 15px;
-  }
-  .servi-1 a {
-    padding: 8px;
-    border-radius: 4px;
-    margin: 5px;
-    font-size: 15px;
-  }
-  /* Blog */
-  .blogueiros {
-    height: 900px;
-  }
-  .read h1 {
-    font-size: 25px;
-    padding-top: 20px;
-  }
-
-  .read p {
-    font-size: 15px;
-    margin: 10px;
-  }
   
-  /*  Associação  */
-  .associacao {
-    background: url(../src/images/foto-final-1.png) no-repeat right;
-    height: 512px;
-    margin-left: 30px;
-  }
 
-  .associacao .box-1 h1 {
-    font-size: 20px;
-    max-width: 200px;
-  }
-
-  .associacao .oferta input {
-    border: 1px solid #1d164d;
-    width: 180px;
-    height: 30px;
-    padding-left: 15px;
-    font-size: 10px;
-  }
-  .associacao .oferta a {
-    width: 40px;
-    height: 32px;
-    font-size: 10px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  /* Rodape */
-  .rodape {
-    display: flex;
-    font-size: 12px;
-    align-items: center;
-  }
-
-  .rodape ul li {
-    padding: 10px;
-  }
-  .rodape p {
-    padding: 0%;
-  }
 }
 /* ---------------------------------------------------------------------------------- */
 @media (max-width: 526px) {
@@ -257,33 +194,7 @@
     font-size: 12px;
   }
 
-  /* --------------------------------------------------------------------------- */
-  .servi-1 {
-    margin-left: 10px;
-  }
-  .servi-1 h1 {
-    padding-top: 0px;
-    font-size: 20px;
-    max-width: 400px;
-    margin-bottom: 20px;
-  }
-  .servi-1 p {
-    padding-top: 0px 0;
-    margin: 0px;
-    line-height: 15px;
-    max-width: 300px;
-    color: #fff;
-    font-size: 10px;
-  }
-  .servi-1 a {
-    display: inline-block;
-    color: rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    padding: 8px;
-    font-size: 11px;
-    border-radius: 4px;
-    margin: 30px 0 0 50px;
-  }
+  
   /* Blog -------------------------------------------------------------------------- */
 
   .blogueiros {
@@ -296,72 +207,17 @@
   .read p {
     font-size: 13px;
   }
-  /*  2 Parte  */
-  .blog {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1.5em;
-    right: 500px;
-    margin-left: 90px;
+  
+  /* Atualizado rodapé */
+  .rodape{
+    font-size: 16px;
   }
-  .blog .content {
-    height: 300px;
+  .rodape nav{
+    gap: 15px;
   }
-
-  .blog .bx img {
-    margin-left: 35px;
-  }
-
-  .blog .content .bx-1 h3 {
-    padding-bottom: 10px;
-    font-size: 13px;
-    max-width: 350px;
-    margin-left: 10px;
-  }
-  .blog .content .bx-2 h3 {
+  .rodape .copyrights{
     font-size: 12px;
-    margin-left: 10px;
-    max-width: 350px;
-    padding-bottom: -10px;
-  }
-  .blog .content .bx-3 h3 {
-    margin-left: 10px;
-    font-size: 13px;
-  }
-  .blog .content .bx-4 h3 {
-    margin-left: 10px;
-    padding-bottom: 5px;
-    font-size: 13px;
-  }
-  .blog .content h3 {
-    padding-top: 10px;
-    padding-bottom: 35px;
-  }
-  /* ----------------------------------------------------------------------------------- */
-  .associacao .box-1 h1 {
-    font-size: 13px;
-  }
-  .associacao .box-1 {
-    position: relative;
-    top: 210px;
-  }
-  .associacao .oferta input {
-    width: 180px;
-    height: 30px;
-    border-radius: 4px;
-    padding-left: 15px;
-    margin: 11px 4px 0 0;
   }
 
-  /* Rodapé------------------------------------------------------------------------ */
-  .rodape p {
-    font-size: 12px;
-    padding-top: 70px;
-    margin-left: 13%;
-  }
-  .rodape ul {
-    font-size: 18px;
-    left: 13%;
-    padding: 10px;
-  }
+ 
 }
