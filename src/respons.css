@@ -1,3 +1,18 @@
+@media(max-width: 1264px){
+  .associacao{
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+  }
+  .associacao .associacao-conteudo{
+    margin: 0 30%;
+    
+  }
+  .associacao .associacao-conteudo h5{
+    font-size: 25px;
+    max-width: 100%;
+  }
+}
 @media (max-width: 1216px){
   .blog-card .item .card h4 {
     font-size: 22px;
@@ -7,10 +22,21 @@
     justify-content: space-evenly;
     font-size: 20px;
   }
-}
+  .servi .servi-texto {
+    margin-left: -10%;
+  }
+  .servi .servi-texto h1{
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+  .servi-texto p {
 
-/* ---------------------------------------------------------------------------------- */
-@media (max-width: 526px) {
+    font-size: 16px;
+  }
+  .servi-texto a {
+    padding: 18px;
+}
+@media(max-width: 1043px){
   #btn-mobil {
     display: flex;
     padding: 0.5rem 1rem;
@@ -18,8 +44,9 @@
     cursor: pointer;
     background: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     gap: 0.5rem;
+    align-items: center;
   }
 
   .navbar nav ul {
@@ -38,7 +65,7 @@
 
   #nav.active #menu {
     display: block;
-    height: 60vh;
+    height: 89vh;
     visibility: visible;
     overflow-y: auto;
   }
@@ -51,14 +78,14 @@
   #hamburguer {
     color: #fff;
     display: block;
-    width: 20px;
+    width: 40px;
     border-top: 2px solid;
   }
   #hamburguer::after,
   #hamburguer::before {
     content: "";
     display: block;
-    width: 20px;
+    width: 40px;
     height: 2px;
     background: currentColor;
     margin-top: 5px;
@@ -78,9 +105,10 @@
     transform: rotate(-135deg);
     top: -7px;
   }
-
-  /* ------------------------------------------ */
-
+}
+/* ---------------------------------------------------------------------------------- */
+@media (max-width: 526px) {
+  
   /* Ready */
   .imagem-fundo {
     background: url(./images/android-chrome-512x512.png) center no-repeat right;
@@ -106,31 +134,6 @@
   .ready .pesquisa .fas {
     padding: 7px;
   }
-  /* Receitas prontas  */
-  .receita-inicio p {
-    font-size: 13px;
-  }
-  .comida {
-    margin: 10px;
-  }
-  .comida .item .bx h3 {
-    font-size: 12px;
-  }
-
-  
-  /* Blog -------------------------------------------------------------------------- */
-
-  .blogueiros {
-    height: 200vh;
-  }
-  .read h1 {
-    font-size: 25px;
-  }
-
-  .read p {
-    font-size: 13px;
-  }
-  
   /* Atualizado rodapé */
   .rodape{
     font-size: 16px;
