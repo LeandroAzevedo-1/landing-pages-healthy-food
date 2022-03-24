@@ -163,20 +163,19 @@ html {
 /* Blog */
 .blogueiros {
   background-color: #fafafc;
-  height: 722px;
 }
 
-.read {
+.blog-Textos-inicial {
   text-align: center;
 }
-.read h1 {
+.blog-Textos-inicial h1 {
   font-size: 40px;
   font-weight: 700;
   color: var(--cor-textoPrincipal);
   padding-top: 40px;
 }
 
-.read p {
+.blog-Textos-inicial p {
   font-size: 20px;
   color: #9e9baf;
   margin: 20px;
@@ -218,7 +217,9 @@ html {
 
 /*  Associação  */
 .associacao {
-  background: url(./images/bloco_final_image.svg) no-repeat right;
+  background: url(./images/bloco_final_image.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
   height: 660px;
   display: flex;
   align-items: center;
