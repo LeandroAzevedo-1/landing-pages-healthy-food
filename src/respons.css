@@ -106,44 +106,7 @@
     font-size: 15px;
     margin: 10px;
   }
-  /*  2 Parte  */
-  .blog {
-    display: grid;
-    grid-template-areas: 300px / 400px / 300px / 400px;
-    grid-gap: 15px;
-    padding: 2em;
-  }
-  .blog .content {
-    width: 250px;
-    height: 350px;
-  }
-  .blog .content .bx a img {
-    height: 35px;
-    width: 35px;
-  }
-  .blog .content .bx-1 h3 {
-    padding-bottom: 0px;
-    font-size: 20px;
-    max-width: 170px;
-    margin-left: 20px;
-  }
-  .blog .content .bx-2 h3 {
-    font-size: 18px;
-    margin-left: 20px;
-    padding-bottom: 5px;
-    max-width: 200px;
-  }
-  .blog .content .bx-3 h3 {
-    padding-bottom: 0px;
-    margin-left: 20px;
-    font-size: 20px;
-    max-width: 280px;
-  }
-  .blog .content .bx-4 h3 {
-    font-size: 20px;
-    margin-left: 20px;
-    padding-bottom: 20px;
-  }
+  
   /*  Associação  */
   .associacao {
     background: url(../src/images/foto-final-1.png) no-repeat right;
