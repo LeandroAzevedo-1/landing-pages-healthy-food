@@ -85,7 +85,6 @@ html {
 /* Receita */
 .recs {
   background-color: #fafafc;
-  height: 780px;
 }
 
 .receita-inicio {
@@ -107,32 +106,34 @@ html {
   text-align: center;
 }
 /* Receitas prontas  */
-.comida {
+.cardapio {
   display: grid;
   grid-gap: 40px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   justify-content: center;
   margin-top: 30px;
+  padding: 50px 0;
+  
 }
-.comida .item {
+.cardapio .item {
   display: flex;
   align-items: center;
   border-radius: 6px;
-  max-width: 600px;
+  width: 600px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
-.comida .item .bx {
+.cardapio .item .cardapio-conteudo {
   margin: 46px;
 }
-.comida .item h3 {
+.cardapio .item h3 {
   margin-bottom: 20px;
   font-size: 30px;
   color: var(--cor-textoPrincipal);
   max-width: 220px;
 }
 
-.comida .item a {
+.cardapio .item a {
   color: #fff;
   background-color: #badc58;
   padding: 15px;
