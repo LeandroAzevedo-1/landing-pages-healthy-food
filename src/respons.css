@@ -4,6 +4,9 @@
     align-items: flex-end;
     
   }
+  .associacao img{
+    flex-shrink: 1;
+  }
   .associacao .associacao-conteudo{
     margin: 0 30%;
     
@@ -22,8 +25,10 @@
     justify-content: space-evenly;
     font-size: 20px;
   }
+  
   .servi .servi-texto {
     margin-left: -10%;
+    
   }
   .servi .servi-texto h1{
       font-size: 30px;
@@ -35,6 +40,16 @@
   }
   .servi-texto a {
     padding: 18px;
+}
+
+@media(max-width: 1145px){
+  .cardapio{
+    grid-template-columns: minmax(100px, auto);
+  } 
+  .cardapio .item{
+    width: 700px;
+  }
+  
 }
 @media(max-width: 1043px){
   #btn-mobil {
@@ -105,8 +120,8 @@
     transform: rotate(-135deg);
     top: -7px;
   }
-}
-/* ---------------------------------------------------------------------------------- */
+}git 
+/* --------------------------------------------------------------------- */
 @media (max-width: 526px) {
   
   /* Ready */
